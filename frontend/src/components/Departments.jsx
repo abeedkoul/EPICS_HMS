@@ -30,7 +30,7 @@ const Departments = () => {
     <div className='container departments'>
       <h2>Departments</h2>
       <Carousel responsive={responsive}>
-        <div>Item 1</div>
+        <div>Hello 1</div>
         <div>Item 2</div>
         <div>Item 3</div>
         <div>Item 4</div>
