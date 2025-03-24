@@ -27,7 +27,7 @@ export const App = () => {
       }
     };
     fetchUser();
-  },isAuthenticated)
+  },[isAuthenticated])
   return (
     <>
     <Router>

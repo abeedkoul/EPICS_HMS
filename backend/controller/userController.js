@@ -35,7 +35,7 @@ export const login = catchAsyncErrors(async(req, res, next)=>{
         return next(new ErrorHandler("Invalid Password or Email", 400));
     }
     if(role !== user.role){
-        return next(new ErrorHandler("This role not found?", 400));
+        return next(new ErrorHandler("User With This Role Not Found", 400));
     }
     generateToken(user,"User Logged In Succesfully",200,res);
 })
