@@ -37,7 +37,8 @@ const Register = () => {
     return <Navigate to="/" />;
   }
 
-  return <div className='container form-component register-form'>
+  return
+  <div className='container form-component register-form'>
     <h2>Sign Up</h2>
     <p>Please Sign Up To Continue</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis quis perspiciatis atque?</p>

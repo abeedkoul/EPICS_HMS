@@ -3,6 +3,7 @@ import React, { useContext, useState } from 'react'
 import { Link, useNavigate } from "react-router-dom"
 import { toast } from 'react-toastify';
 import { Context } from "../main";
+import {GiHamburgerMenu} from "react-icons/gi"
 
 
 
@@ -39,6 +40,9 @@ const Navbar = () => {
                     <Link to="/about">ABOUT US</Link>
                 </div>
                 {isAuthenticated ? (<button className='logoutBtn btn' onClick={handleLogout}>LOGOUT</button>) : (<button className='logoutBtn btn' onClick={gotoLogin}>LOGIN</button>)}
+            </div>
+            <div className='hamburger' onClick={()=>setShow(!show)}>
+                <GiHamburgerMenu/>
             </div>
         </nav>
     )
