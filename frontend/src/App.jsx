@@ -10,6 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import Navbar from './components/Navbar'
 import { Context } from './main'
 import axios from 'axios'
+import Footer from './components/Footer'
 
 
 export const App = () => {
@@ -39,6 +40,7 @@ export const App = () => {
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
       </Routes>
+      <Footer/>
       <ToastContainer position='top-center'/>
     </Router>
     
