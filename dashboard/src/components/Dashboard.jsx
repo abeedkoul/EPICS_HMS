@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import {Context} from "../main"
 
 const Dashboard = () => {
 
-  // if(!isAuthenticated){
-  //   return <Navigate to={"/login"}/>
-  // }
+  const {isAuthenticated} = useContext(Context)
+
+
+
+
+
+  
+
+  if(!isAuthenticated){
+    return <Navigate to={"/login"}/>
+  }
   return (
     <div>Dashboard</div>
   )
