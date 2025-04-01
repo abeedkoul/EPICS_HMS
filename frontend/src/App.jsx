@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import { Context } from './main'
 import axios from 'axios'
 import Footer from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 
 export const App = () => {
@@ -29,6 +30,8 @@ export const App = () => {
     };
     fetchUser();
   },[isAuthenticated])
+
+  
   return (
     <>
     <Router>
@@ -42,6 +45,7 @@ export const App = () => {
       </Routes>
       <Footer/>
       <ToastContainer position='top-center'/>
+      <Analytics/>
     </Router>
     
     </>
