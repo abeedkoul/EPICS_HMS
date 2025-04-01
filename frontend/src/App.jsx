@@ -45,9 +45,9 @@ export const App = () => {
       </Routes>
       <Footer/>
       <ToastContainer position='top-center'/>
-      <Analytics/>
+      
     </Router>
-    
+    <Analytics/>
     </>
   )
 }
