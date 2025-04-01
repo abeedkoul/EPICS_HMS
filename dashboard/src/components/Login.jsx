@@ -36,7 +36,7 @@ const Login = () => {
 
     <>
       <div className='container form-component '>
-        <img src='/logo.png' alt='log' className='logo'/>
+        <img src='/vlogo.png' alt='log' className='logo'/>
         <h1 className='form-title'>Welcome To VITCARE</h1>
         <p>Only Admins Are Allowed To Access These Resources</p>
         <form onSubmit={handleLogin}>

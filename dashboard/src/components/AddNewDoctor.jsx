@@ -86,7 +86,7 @@ const AddNewDoctor = () => {
 
       <section className='page'>
         <div className='container form-component add-doctor-form'>
-          <img src='/logo.png' alt='logo' className='logo' />
+          <img src='/vlogo.png' alt='logo' className='logo' />
           <h1 className='form-title'>ADD NEW DOCTOR</h1>
 
           <form onSubmit={handleAddNewDoctor}>

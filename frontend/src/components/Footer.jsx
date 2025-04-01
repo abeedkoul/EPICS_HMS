@@ -9,34 +9,39 @@ const Footer = () => {
     const hours = [
         {
             id: 1,
-            day: "Monday",
+            day: "Monday ",
             time: "9:00 AM - 11:00 PM",
         },
         {
             id: 2,
-            day: "Tuesday",
+            day: "Tuesday ",
             time: "12:00 PM - 12:00 AM",
         },
         {
             id: 3,
-            day: "Wednesday",
+            day: "Wednesday    ",
             time: "10:00 AM - 10:00 PM",
         },
         {
             id: 4,
-            day: "Thursday",
+            day: "Thursday ",
             time: "9:00 AM - 9:00 PM",
         },
         {
             id: 5,
-            day: "Monday",
+            day: "Friday ",
             time: "3:00 PM - 9:00 PM",
         },
         {
             id: 6,
-            day: "Saturday",
+            day: "Saturday ",
             time: "9:00 AM - 3:00 PM",
         },
+        {
+            id: 7,
+            day: "Sunday ",
+            time: "9:00 AM - 3:00 PM"
+        }
     ];
     return (
         <>
@@ -46,7 +51,7 @@ const Footer = () => {
 
                 <div className='content'>
                     <div>
-                        <img src='/logo.png' alt='logo' className='logo-img ' />
+                        <img src='/vlogo.png' alt='logo' className='logo-img ' />
                     </div>
                     <div>
                         <h4>Quick Links</h4>
@@ -64,10 +69,11 @@ const Footer = () => {
                                 <li key={element.id}>
                                     <span>{element.day}</span>
                                     <span>{element.time}</span>
+
                                 </li>
-                                );
+                                )
                             })
-                        };
+                        }
 
                     </div>
                     <div>

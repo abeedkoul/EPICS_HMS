@@ -7,6 +7,8 @@ import { Navigate } from 'react-router-dom';
 const Doctors = () => {
 
   const [doctors, setDoctors] = useState([]);
+  
+  
   const { isAuthenticated } = useContext(Context);
 
   useEffect(() => {
@@ -64,4 +66,4 @@ const Doctors = () => {
   )
 }
 
-export default Doctors
+export default Doctors;

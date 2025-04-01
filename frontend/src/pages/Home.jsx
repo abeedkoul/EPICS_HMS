@@ -7,7 +7,8 @@ import MessageForm from "../components/MessageForm.jsx";
 const Home = () => {
   return(
     <>
-
+    <br></br>
+    <br></br>
     <Hero title={"Welcome to VIT MEDICAL CENTER | Your TRUSTED Medical Provider"} imageUrl={"/hero.png"} />
     <Biography imageUrl={"/about.png"}/>
     <Departments />
